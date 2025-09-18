@@ -4,7 +4,7 @@ export type SiteConfig = {
 	title: string;
 	subtitle: string;
 
-	lang:
+	lang:"zh_CN"
 		| "en"
 		| "zh_CN"
 		| "zh_TW"
