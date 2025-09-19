@@ -1,95 +1,22 @@
 ---
-title: Markdown Extended Features
-published: 2024-05-01
-updated: 2024-11-29
-description: 'Read more about Markdown features in Fuwari'
+title: 学习记录
+published: 2025-09-15
+updated: 2025-09-18
+description: '记录我学习java的进展'
 image: ''
-tags: [Demo, Example, Markdown, Fuwari]
+tags: [Java，学习记录]
 category: 'Examples'
 draft: false 
 ---
 
-## GitHub Repository Cards
-You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API. 
+## 最开始的预想
+我目前拥有一些c语言基础，在询问一些人再结合网络上收集的信息我认为
+我的学习主要目标不应该放在算法上，更应该偏向与应用层面于此我决定，
+以java+python路线为主要目标成为真正的全栈。博客总结方面我可能会一
+两周一更新至于算法和数据结构我以后会主要更新这两个方面。
 
-::github{repo="Fabrizz/MMM-OnSpotify"}
+---
+### 加油吧，虽然我把这些东西能真正写在博客上就用了很长时间。不过我现在也就只有时间了。
 
-Create a GitHub repository card with the code `::github{repo="<owner>/<repo>"}`.
 
-```markdown
-::github{repo="saicaca/fuwari"}
-```
-
-## Admonitions
-
-Following types of admonitions are supported: `note` `tip` `important` `warning` `caution`
-
-:::note
-Highlights information that users should take into account, even when skimming.
-:::
-
-:::tip
-Optional information to help a user be more successful.
-:::
-
-:::important
-Crucial information necessary for users to succeed.
-:::
-
-:::warning
-Critical content demanding immediate user attention due to potential risks.
-:::
-
-:::caution
-Negative potential consequences of an action.
-:::
-
-### Basic Syntax
-
-```markdown
-:::note
-Highlights information that users should take into account, even when skimming.
-:::
-
-:::tip
-Optional information to help a user be more successful.
-:::
-```
-
-### Custom Titles
-
-The title of the admonition can be customized.
-
-:::note[MY CUSTOM TITLE]
-This is a note with a custom title.
-:::
-
-```markdown
-:::note[MY CUSTOM TITLE]
-This is a note with a custom title.
-:::
-```
-
-### GitHub Syntax
-
-> [!TIP]
-> [The GitHub syntax](https://github.com/orgs/community/discussions/16925) is also supported.
-
-```
-> [!NOTE]
-> The GitHub syntax is also supported.
-
-> [!TIP]
-> The GitHub syntax is also supported.
-```
-
-### Spoiler
-
-You can add spoilers to your text. The text also supports **Markdown** syntax.
-
-The content :spoiler[is hidden **ayyy**]!
-
-```markdown
-The content :spoiler[is hidden **ayyy**]!
-
-```
+ps:网站功能目前还不健全以后留待改善（不过现在真就跟一个乞丐一样啊）。
